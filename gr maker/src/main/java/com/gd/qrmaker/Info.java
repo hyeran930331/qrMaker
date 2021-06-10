@@ -4,8 +4,9 @@ import lombok.Data;
 
 @Data
 public class Info {
-	private String name;
-	private String phone;
-	private String IP;
-	private String GPS;
+	private String username;
+	private int age;
+	private String gender;
+	private String address;
+	private String gps;
 }

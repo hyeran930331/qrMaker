@@ -54,41 +54,29 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-	<dependency>	
-		    <groupId>org.slf4j</groupId>
-	    <artifactId>slf4j-simple</artifactId>
-	    <version>1.7.30</version>
-	    <scope>test</scope>
-	</dependency>
-	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-	<dependency>
-	    <groupId>org.slf4j</groupId>
-	    <artifactId>slf4j-api</artifactId>
-	    <version>1.7.30</version>
-	</dependency>
+		</dependency>	
 		
+		<!-- 출처: https://gocoder.tistory.com/724 [고코더 IT Express]	 -->
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>
+	  <!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+		<dependency>
+		    <groupId>com.google.zxing</groupId>
+		    <artifactId>javase</artifactId>
+		    <version>3.4.1</version>
+		</dependency>
+	  <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+		<dependency>
+		    <groupId>com.google.zxing</groupId>
+		    <artifactId>core</artifactId>
+		    <version>3.4.1</version>
+		</dependency>
+	  <!-- https://mvnrepository.com/artifact/junit/junit -->
 	
-  <!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
-	<dependency>
-	    <groupId>com.google.zxing</groupId>
-	    <artifactId>javase</artifactId>
-	    <version>3.4.1</version>
-	</dependency>
-  <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
-	<dependency>
-	    <groupId>com.google.zxing</groupId>
-	    <artifactId>core</artifactId>
-	    <version>3.4.1</version>
-	</dependency>
-  <!-- https://mvnrepository.com/artifact/junit/junit -->
-	<dependency>
-	    <groupId>junit</groupId>
-	    <artifactId>junit</artifactId>
-	    <version>4.11</version>
-	    <scope>test</scope>
-	</dependency>
-	</dependencies>
+		</dependencies>
 
 	<build>
 		<plugins>
